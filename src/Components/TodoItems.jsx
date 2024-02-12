@@ -2,8 +2,10 @@ import './CSS/TodoItems.css'
 
 const TodoItems = () => {
   return (
-    <div>
-      
+    <div className='todoitems'>
+      <div className="todoitems-container">
+        
+      </div>
     </div>
   )
 }

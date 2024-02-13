@@ -1,5 +1,6 @@
 import { useState,useRef, useEffect } from 'react'
 import './CSS/Todo.css'
+import TodoItems from './TodoItems';
 
 let count =0;
 const Todo = () => {
@@ -29,6 +30,9 @@ const Todo = () => {
       
 
         <div className='todo-list'>
+          {todos.map((item,index)=>{
+                  return <TodoItems  key={index} no={item.no} display={item.display} text={item.text}/>
+          })}
       </div>
     </div>
   )

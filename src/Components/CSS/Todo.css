@@ -2,7 +2,7 @@
     width: 300px;
     min-height: 432px;
     border-radius: 20px;
-    background: #c6f7f5;
+    background: #ffffff;
     margin: auto;
     margin-top: 90px;
     display: flex;
@@ -15,7 +15,7 @@
 
 .todo-header{
     margin-top: 30px;
-    color: rgb(39, 9, 161);
+    color: rgb(85, 9, 161);
     font-size: 30px;
     font-weight: 600;
     line-height: 60px;
@@ -41,7 +41,7 @@
 
 .todo-add-btn{
     border-radius: 50px;
-    background: rgb(244, 197, 143);
+    background: rgb(217, 175, 128);
     width: 110px;
     height: 53px;
     justify-content: center;
